@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+if [ -z "$1" ]
+then
+echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+fi
+
+if [ -n "$1" ]
+then
+ping "$1"
+fi
+
+#A simple script that accepts a string as an argument and checks if the IP adress is on the network

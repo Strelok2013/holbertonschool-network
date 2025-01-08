@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+ss -pl
+
+#A simple bash script that displays all listening ports.
