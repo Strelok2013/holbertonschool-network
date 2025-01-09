@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
+#Shows all the active up addresses on this machine
 
 ifconfig | grep 'inet ' | awk '{print $2}'
 
-#Shows all the active up addresses on this machine
